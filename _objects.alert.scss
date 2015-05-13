@@ -6,7 +6,9 @@
 // Features:
 //
 
-$bare-alert-border-radius:		  2px !default;
+$bare-alert-border-radius:		    2px !default;
+$bare-alert-background:			#e02a2b !default;
+$bare-alert-color: 				   #fff !default;
 
 /* 
    #tiles
@@ -26,4 +28,6 @@ $bare-alert-border-radius:		  2px !default;
 	padding: bareRem($bare-sp-s);
 	border-radius: $bare-alert-border-radius;
 	font-size: 85%;
+	background: $bare-alert-background;
+	color: $bare-alert-color;
 }
