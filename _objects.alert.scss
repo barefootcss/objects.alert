@@ -1,0 +1,29 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+//
+// Features:
+//
+
+$bare-alert-border-radius:		  2px !default;
+
+/* 
+   #tiles
+   ========================================================================== */
+
+/**
+ * The alert object creates simple alert messages.
+ *
+ * Usage:
+ *
+ * <p class="alert"></p>
+ */
+
+.#{$bare-ns}alert {
+	@extend %bare-mb-m;
+	display: block;
+	padding: bareRem($bare-sp-s);
+	border-radius: $bare-alert-border-radius;
+	font-size: 85%;
+}
