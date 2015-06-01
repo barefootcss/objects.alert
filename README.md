@@ -8,7 +8,7 @@ The `alert` object creates simple alert messages.
 
 Install using Bower:
 
-	$ bower --save bare-alert
+	$ bower install --save bare-alert
 
 Import into project:
 
