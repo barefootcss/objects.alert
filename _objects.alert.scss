@@ -19,10 +19,10 @@ $bare-alert-color: 				   #fff !default;
  *
  * Usage:
  *
- * <p class="alert"></p>
+ * <p class="o-alert"></p>
  */
 
-.#{$bare-ns}alert {
+.o-alert {
 	@extend %bare-mb-m;
 	display: block;
 	padding: bareRem($bare-sp-s);
