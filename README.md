@@ -2,7 +2,7 @@
 
 The `alert` object creates simple alert messages.
 
-	<p class="alert"></p>
+	<p class="o-alert"></p>
 
 ## Installation
 
