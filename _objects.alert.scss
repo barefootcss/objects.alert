@@ -28,6 +28,6 @@ $bare-alert-color: 				   #fff !default;
 	padding: bareRem($bare-sp-s);
 	border-radius: $bare-alert-border-radius;
 	font-size: 85%;
-	background: $bare-alert-background;
+	background-color: $bare-alert-background;
 	color: $bare-alert-color;
 }
